@@ -5,7 +5,7 @@
 sudo apt install -y build-essential libssl-dev python
 
 # install NVM (node version manager)
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
 
 # immediate use
 export NVM_DIR="$HOME/.nvm"
@@ -15,9 +15,9 @@ export NVM_DIR="$HOME/.nvm"
 source ~/.bashrc
 
 # install node.js
-nvm install 12.10.0
-nvm use 12.10.0
-nvm alias default 12.10.0
+nvm install 12.13.1
+nvm use 12.13.1
+nvm alias default 12.13.1
 
 # check node versions
 node --version
